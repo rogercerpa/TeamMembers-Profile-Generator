@@ -1,0 +1,17 @@
+Logic
+
+Use inquirer for prompting questions to gather information from the user, save all that data to be use/transfer to the hmlt.
+
+
+-the html templates will have:
+
+HEADER
+DIV container
+CARD 
+    -Name
+    -ID
+    -Title :student or employee
+    -Company
+    -University
+    -Department
+    -GitHub username
