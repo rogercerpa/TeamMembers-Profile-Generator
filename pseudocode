@@ -1,5 +1,45 @@
 Logic
 
+Start with the set of questions using inquirer prompt. 
+
+the first question is for the managers information
+
+after that an option to select if the next team member is a engineer or intern
+based on that it will ask questions based on if its an engineer or intern 
+
+once all the information is gathered it will be written to an template html to generate the list of employees.
+
+questions for managers and interns.
+
+Team member Name
+Team member Title
+Team member ID
+Team member email
+Team member office number/mobile
+Team member github account 
+Team member University Name
+
+Class employee
+Name
+ID
+Title
+Name
+email
+
+Manager 
+offide Name
+role
+
+Engineer
+github
+role
+
+Interns
+school
+
+
+
+
 Use inquirer for prompting questions to gather information from the user, save all that data to be use/transfer to the hmlt.
 
 
