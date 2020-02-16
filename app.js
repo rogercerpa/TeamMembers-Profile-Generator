@@ -30,7 +30,23 @@ employeesinfo = () => {
 		])
 		.then((data) => {
 			const employeetype = data.employeerole;
-			console.log(employeetype);
+			employeetype.inquirer.prompt([
+				{
+					type    : 'input',
+					name    : 'employeename',
+					message : 'What is your name?'
+				},
+				{
+					type    : 'input',
+					name    : 'id',
+					message : 'Whats your ID#?'
+				},
+				{
+					type    : 'input',
+					name    : 'employeetitle',
+					message : 'What is your title?'
+				}
+			]);
 		});
 };
 employeesinfo();
